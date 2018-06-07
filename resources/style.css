@@ -1,3 +1,15 @@
+body {
+  color: white;
+}
+
 .header {
+  background-color: black;
+}
+
+.main-banner {
+  background-image: url(./images/moto.jpeg);
+}
+
+.headline {
   background-color: black;
 }
