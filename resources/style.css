@@ -144,3 +144,51 @@ nav ul {
     display: none;
   }
 }
+
+@media only screen and (max-width: 470px) {
+  .main-banner {
+    height: 15rem;
+  }
+
+  .headline {
+    top: 10rem;
+    padding: 1rem 2rem;
+    width: 100%;
+  }
+
+  .headline h4 {
+    font-size: 0.77rem;
+    font-weight: bold;
+  }
+
+  .headline h1 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .products {
+    justify-content: center;
+  }
+
+  .item {
+    width: 90%;
+  }
+
+  #glasses {
+    display: none;
+  }
+
+  #watch {
+    display: none;
+  }
+
+  .store-info {
+    flex-wrap: wrap;
+  }
+
+  .info {
+    width: 90%;
+    margin: 0.5rem auto;
+    justify-content: center;
+  }
+}
