@@ -8,10 +8,15 @@ body {
 }
 
 nav {
-  background: red;
+  background: firebrick;
 }
 
-
+nav ul {
+  display: flex;
+  padding: 0.75rem 0;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .container {
   max-width: 960px;
@@ -55,16 +60,87 @@ nav {
   font-weight: bold;
 }
 
+.products {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 0 0;
+}
+
+.item {
+  width: 30%;
+}
+
 .item span {
+  display: block;
   background-color: black;
   text-align: center;
   padding: 0.5rem;
 }
 
-.info {
-  background: black;
+.item-img {
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 0;
+  border: 4px solid black;
+}
+
+.item-img img {
+  max-width: 8rem;
+}
+
+.info .title {
+  color: white;
+  display: block;
+  background-color: black;
+  padding: 1rem 2rem;
 }
 
 .footer {
   background-color: black;
+}
+
+.store-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+
+.info span {
+  color: black;
+}
+
+.info {
+  width: 35%;
+}
+
+.footer {
+  padding: 5rem 0;
+  margin-top: 4rem;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: flex;
+    padding: 0.75rem 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+ .item {
+   width: 47%
+ }
+
+  #glasses {
+    display: none;
+  }
 }
