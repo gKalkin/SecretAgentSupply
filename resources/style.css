@@ -191,4 +191,8 @@ nav ul {
     margin: 0.5rem auto;
     justify-content: center;
   }
+
+  .footer {
+    text-align: center;
+  }
 }
