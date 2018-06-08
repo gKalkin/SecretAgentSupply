@@ -1,3 +1,8 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
 body {
   color: white;
 }
@@ -6,6 +11,8 @@ nav {
   background: red;
 }
 
+
+
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -13,11 +20,22 @@ nav {
 
 .header {
   background-color: black;
+  padding: 0.66rem;
+}
+
+.header img {
+  height: 1.5rem;
+  padding: 0 0.5rem;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
 }
 
 .main-banner {
   background-image: url(./images/moto.jpeg);
-  height: 25em;
+  height: 25rem;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -27,6 +45,14 @@ nav {
   background-color: black;
   position: relative;
   width: 20rem;
+  top: 9rem;
+  padding: 2rem 3rem;
+}
+
+.headline h1 {
+  font-size: 2rem;
+  padding-top: 0.25rem;
+  font-weight: bold;
 }
 
 .item span {
